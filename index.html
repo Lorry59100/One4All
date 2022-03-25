@@ -14,6 +14,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!-- FEUILLES DE STYLE -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/f42724b8b3.js" crossorigin="anonymous"></script>
@@ -195,7 +196,7 @@
     <!-- MAIN -->
     <main>
 
-        <section id="présentation" class="text-center">
+        <section id="présentation" class="text-center hide">
 
             <h1 class="text-center">Présentation</h1>
             <h2>Le Mouvement Altruiste #One4All a pour but de fédérer tous les Hommes <br> – indépendamment de leur religion, ethnie ou culture – <br> qui adhèrent à l’idéologie de l’Altruisme.</h2>
@@ -226,7 +227,7 @@
         <div class="split"></div>
         <br>
 
-        <section id="philosophie">
+        <section id="philosophie" class="hide">
             <h1 class="text-center">Philosophie de l'altruisme</h1>
             <div class="ghandi">
                 <div class="img-ghandi d-flex justify-content-center" style="background-image: url('assets/img/Philosophie/bg-yellow.png')">
@@ -251,7 +252,7 @@
         <div class="split"></div>
         <br>
 
-        <section id="constat" class="d-lg-flex align-items-center">
+        <section id="constat" class="hide d-lg-flex align-items-center">
             <div class="constats">
                 <div class="constat-title">
                     <img src="assets/img/Constat/bouton-consta.png" alt="" srcset="">
@@ -272,7 +273,7 @@
         <div class="split"></div>
         <br>
 
-        <section id="revolution">
+        <section id="revolution" class="hide">
             <img src="assets/img/Revolution/Slide-revolution.jpg" alt="" srcset="">
             <div class="textbtn-revolution d-flex flex-column">
                 <div class="text-revolution">
@@ -297,7 +298,7 @@
         <div class="split"></div>
         <br>
 
-        <section id="soutien" style="background-image: url('assets/img/Soutiens/fondLigueLHA.jpg');">
+        <section id="soutien" style="background-image: url('assets/img/Soutiens/fondLigueLHA.jpg');" class="hide">
             <div class="img-ligue d-flex justify-content-center">
                 <img src="assets/img/Soutiens/Titre-ligue.png" alt="">
             </div>
@@ -318,7 +319,7 @@
         <div class="split"></div>
         <br>
 
-        <section id="histoire" style="background-image: url('assets/img/Histoire/parchemin1000x1000.jpg');">
+        <section id="histoire" style="background-image: url('assets/img/Histoire/parchemin1000x1000.jpg');" class="hide">
             <div class="title d-flex justify-content-center">
                 <img src="assets/img/Histoire/titre histoire du mouvement.png" alt="">
             </div>
@@ -327,16 +328,16 @@
                 <div class="text-histoire">
                     <h3>Il y a 30 ans, un élève de CP à l’école du Mandinet en Île-de-France, exprimait devant sa classe son souhait de changer le monde, de stopper la maltraitance animale et d’éradiquer la famine. Un simple exercice qui consistait à illustrer le métier que chaque enfant désirait exercer à l’âge adulte… Devenu adulte, l’objectif de cet enfant utopiste s’est renforcé et concrétisé au fil des épreuves rencontrées sur son parcours.</h3>
                 </div>
-                <div class="img-samurai">
+                <div class="img-samurai hide" id="samurai">
                     <img src="assets/img/Histoire/samurai.png" alt="">
                 </div>
             </div>
             
-            <div class="img-revolution-vebole d-flex justify-content-center">
+            <div class="img-revolution-vebole d-flex justify-content-center hide" id="hope">
                 <img src="assets/img/Histoire/parchemin copie.png" alt="">
             </div>
 
-            <div class="img-pastille-text d-flex align-items-center">
+            <div class="img-pastille-text d-flex align-items-center hide" id="pastille">
                 <div class="img-pastille">
                     <img src="assets/img/Histoire/soleil rouge.png" alt="">
                 </div>
@@ -354,7 +355,7 @@
         <div class="split"></div>
         <br>
 
-        <section id="reseaux">
+        <section id="reseaux" class="hide">
             <h1 class="text-center">Notre Réseau</h1>
 
             <div class="reseau-text-img d-lg-flex d-md-flex align-items-center">
@@ -387,7 +388,7 @@
         <div class="split"></div>
         <br>
 
-        <section id="evenements">
+        <section id="evenements" class="hide">
             <div class="img-event">
                 <img src="assets/img/Events/Slide-events.jpg" alt="">
             </div>
@@ -414,7 +415,7 @@
 
         
         <div class="icons d-flex justify-content-center align-items-center">
-            <a href="https://www.facebook.com/One4All.world/" class="text-blue"><i class="fa-brands fa-facebook fa-4x"></i></a>
+            <a href="https://www.facebook.com/One4All.world/" class="text-primary"><i class="fa-brands fa-facebook fa-4x"></i></a>
             <a href="https://www.instagram.com/one4all.world/?hl=fr" class="text-info"><i class="fa-brands fa-instagram fa-4x"></i></a>
             <a href="https://www.youtube.com/channel/UCuaNm_aJfS8WSpH-oTUHQsg" class="text-danger"><i class="fa-brands fa-youtube fa-4x"></i></a>
         </div>
