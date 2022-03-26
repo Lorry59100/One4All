@@ -114,43 +114,39 @@ window.onload = setInterval(changeSlide, 4000)
 /* FLIP */
 
 window.addEventListener("scroll", function(event) {
-    var top = this.scrollY,
-        left =this.scrollX;
-        console.log(top)
+    var top = this.scrollY
 
-   /*  var fleur = document.getElementById('fleur') */
-
-    if(top > 816) {
+    if(top > 610) {
         presentation = document.getElementById('présentation')
         presentation.classList.remove('hide')
         presentation.classList.add('w3-animate-right')
     }
 
-    if(top > 2000) {
+    if(top > 1830) {
         philosophie = document.getElementById('philosophie')
         philosophie.classList.remove('hide')
         philosophie.classList.add('w3-animate-left')
     }
 
-    if(top > 4078) {
+    if(top > 3600) {
         constat = document.getElementById('constat')
         constat.classList.remove('hide')
         constat.classList.add('w3-animate-right')
     }
 
-    if(top > 4792) {
+    if(top > 4300) {
         revolution = document.getElementById('revolution')
         revolution.classList.remove('hide')
         revolution.classList.add('w3-animate-left')
     }
 
-    if(top > 5406) {
+    if(top > 5055) {
         soutien = document.getElementById('soutien')
         soutien.classList.remove('hide')
         soutien.classList.add('w3-animate-right')
     }
 
-    if(top > 5910) {
+    if(top > 5810) {
         histoire = document.getElementById('histoire')
         histoire.classList.remove('hide')
         histoire.classList.add('w3-animate-left')
@@ -174,13 +170,13 @@ window.addEventListener("scroll", function(event) {
         pastille.classList.add('w3-animate-right')
     }
 
-    if(top > 6980) {
+    if(top > 7200) {
         reseaux = document.getElementById('reseaux')
         reseaux.classList.remove('hide')
         reseaux.classList.add('w3-animate-left')
     }
 
-    if(top > 7400) {
+    if(top > 7600) {
         evenements = document.getElementById('evenements')
         evenements.classList.remove('hide')
         evenements.classList.add('w3-animate-left')
